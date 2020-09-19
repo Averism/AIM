@@ -1,0 +1,19 @@
+{
+  "name": "aim",
+  "version": "1.0.0",
+  "description": "Aver Image Morpher\r ---",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"no test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Averism/AIM.git"
+  },
+  "author": "Averman",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Averism/AIM/issues"
+  },
+  "homepage": "https://github.com/Averism/AIM#readme"
+}

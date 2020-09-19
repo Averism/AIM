@@ -1,0 +1,21 @@
+<canvas>
+</canvas>
+<canvas>
+</canvas>
+<script src="aim.js"></script>
+<script>
+
+    function imgload() {
+        i1 = document.getElementsByTagName("img")[0];
+        cv = document.getElementsByTagName("canvas")[0];
+        ctx = cv.getContext('2d');
+        ctx.drawImage(i1, 0, 0, 100, 100);
+        cv2 = document.getElementsByTagName("canvas")[1];
+        ctx2 = cv2.getContext('2d');
+        // ctx2.drawImage(cv,0,0,100,100,200,50,100,100);
+        AIM.mapTriangle(cv, [[0, 0], [100, 0], [100, 100]], ctx2, [[0, 50], [100, 0], [50, 100]])
+    };
+</script>
+<img onload="imgload()"
+    src="https://d1a9v60rjx2a4v.cloudfront.net/2013/10/03/01_16_39_448_Screen_shot_2010_10_14_at_2.26.30_PM_1_1.png"
+    style="display: none;">
